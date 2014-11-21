@@ -1,6 +1,8 @@
 # Header
 menu:
   Home: /
+  Blog: http://blog.billryan.me
+  Wiki: http://wiki.billryan.me
 
 # Content
 excerpt_link: Read More
