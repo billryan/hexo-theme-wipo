@@ -1,8 +1,13 @@
 <header id="header">
-  <div id="header-title">
-    <a href="<%- url_for() %>"><%= config.title %></a>
+  <div class="pure-menu pure-menu-open pure-menu-horizontal">
+    <a href="<%- url_for() %>" class="pure-menu-heading alignleft"><%= config.title %></a>
+    <ul class="alignleft">
+	  <% for (var i in theme.menu){ %>
+	    <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+	  <% } %>
+    </ul>
+    <ul class="alignright">
+      <li></li>
+    </ul>
   </div>
-  <% for (var i in theme.menu){ %>
-    <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-  <% } %>
 </header>
