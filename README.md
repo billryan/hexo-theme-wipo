@@ -4,4 +4,4 @@ A personal wiki theme for [Hexo](http://hexo.io) based on [Pure](http://purecss.
 
 ## License
 
-This theme is provided under [The MIT License (MIT) | Open Source Initiative](http://opensource.org/licenses/MIT).
+This theme is provided under [The MIT License (MIT)](http://opensource.org/licenses/MIT).
